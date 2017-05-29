@@ -144,28 +144,27 @@ def sol9_stringRotation(string1, string2):
     return string1 in (string2 + string2)
 
 
-# execute as standalone program to test
-if __name__ == "__main__":
-    print(sol1_isUnique("avew31d"))
-    print(sol1_isUnique("avew31da"))
+# tests
+print(sol1_isUnique("avew31d"))
+print(sol1_isUnique("avew31da"))
 
-    print(sol2_checkPermutation("fbacgde", "abcdefg"))
-    print(sol2_checkPermutation("fbacgdh", "abcdefg"))
+print(sol2_checkPermutation("fbacgde", "abcdefg"))
+print(sol2_checkPermutation("fbacgdh", "abcdefg"))
 
-    print(sol3_URLify("My Test URL    ", 11))
+print(sol3_URLify("My Test URL    ", 11))
 
-    print(sol4_palindromePermutation("manz man"))
-    print(sol4_palindromePermutation("manz manz"))
+print(sol4_palindromePermutation("manz man"))
+print(sol4_palindromePermutation("manz manz"))
 
-    print(sol5_oneAway("the", "then"))
-    print(sol5_oneAway("this", "then"))
+print(sol5_oneAway("the", "then"))
+print(sol5_oneAway("this", "then"))
 
-    print(sol6_stringCompression("aaabbcccccd"))
-    print(sol6_stringCompression("abdwq"))
+print(sol6_stringCompression("aaabbcccccd"))
+print(sol6_stringCompression("abdwq"))
 
-    sol7_rotateMatrix([[1,2,3], [4,5,6], [7,8,9]])
+sol7_rotateMatrix([[1,2,3], [4,5,6], [7,8,9]])
 
-    sol8_zeroMatrix([[1, 2, 0], [4, 0, 6], [7, 8, 9]])
+sol8_zeroMatrix([[1, 2, 0], [4, 0, 6], [7, 8, 9]])
 
-    print(sol9_stringRotation("mytest", "testmy"))
-    print(sol9_stringRotation("mytest", "testmyfail"))
+print(sol9_stringRotation("mytest", "testmy"))
+print(sol9_stringRotation("mytest", "testmyfail"))

@@ -74,7 +74,6 @@ def minOperations(inputString):
     return totalOperations
 
 
-# execute as standalone program to test
-if __name__ == "__main__":
-    print(minOperations("1153*"))
+# test
+print(minOperations("1153*"))
 

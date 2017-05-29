@@ -94,7 +94,6 @@ def test_merge(data1={}, data2={}):
     print ("merge(data1, data2) will produce: " + str(merge(data1, data2)))
 
 
-# execute as standalone program to test
-if __name__ == "__main__":
-    test_merge()
+# test
+test_merge()
 
